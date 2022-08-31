@@ -1,0 +1,105 @@
+% This is the RIPE Database query service.
+% The objects are in RPSL format.
+%
+% The RIPE Database is subject to Terms and Conditions.
+% See http://www.ripe.net/db/support/db-terms-conditions.pdf
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to '185.179.116.0 - 185.179.119.255'
+
+% Abuse contact for '185.179.116.0 - 185.179.119.255' is 'abuse@planeetta.fi'
+
+inetnum:        185.179.116.0 - 185.179.119.255
+netname:        FI-PLANEETTA-20161128
+country:        FI
+org:            ORG-PIO3-RIPE
+admin-c:        PLIN-RIPE
+tech-c:         PLIN-RIPE
+status:         ALLOCATED PA
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         PLANEETTA-MNT
+created:        2016-11-28T10:44:30Z
+last-modified:  2019-01-30T16:06:29Z
+source:         RIPE
+
+organisation:   ORG-PIO3-RIPE
+org-name:       Planeetta Internet Oy
+country:        FI
+org-type:       LIR
+address:        Mannerheimintie 105,
+address:        00280
+address:        Helsinki
+address:        FINLAND
+phone:          +358105251440
+fax-no:         +358105251449
+mnt-ref:        PLANEETTA-MNT
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         PLANEETTA-MNT
+abuse-c:        PLIN-RIPE
+created:        2012-03-15T16:28:40Z
+last-modified:  2020-12-16T12:45:29Z
+source:         RIPE # Filtered
+admin-c:        AXU-RIPE
+admin-c:        LK1557-RIPE
+admin-c:        PLIN-RIPE
+
+role:           Planeetta Internet Hostmaster
+address:        Planeetta Internet Oy
+address:        Mannerheimintie 105
+address:        00280 Helsinki
+address:        Finland
+phone:          +358 10 525 1440
+fax-no:         +358 10 525 1449
+org:            ORG-PIO1-RIPE
+admin-c:        LK1557-RIPE
+tech-c:         AXU-RIPE
+tech-c:         TM3893-RIPE
+nic-hdl:        PLIN-RIPE
+mnt-by:         PLANEETTA-MNT
+created:        2005-08-16T15:32:32Z
+last-modified:  2019-09-26T00:59:18Z
+source:         RIPE # Filtered
+abuse-mailbox:  abuse@planeetta.fi
+
+% Information related to '185.179.116.0/22AS58003'
+
+route:          185.179.116.0/22
+descr:          Planeetta Internet Infrastructure
+descr:          http://www.planeetta.net/
+origin:         AS58003
+org:            ORG-PIO3-RIPE
+mnt-routes:     PLANEETTA-MNT
+mnt-by:         PLANEETTA-MNT
+created:        2016-11-28T12:56:25Z
+last-modified:  2016-11-28T12:56:25Z
+source:         RIPE
+
+organisation:   ORG-PIO3-RIPE
+org-name:       Planeetta Internet Oy
+country:        FI
+org-type:       LIR
+address:        Mannerheimintie 105,
+address:        00280
+address:        Helsinki
+address:        FINLAND
+phone:          +358105251440
+fax-no:         +358105251449
+mnt-ref:        PLANEETTA-MNT
+mnt-ref:        RIPE-NCC-HM-MNT
+mnt-by:         RIPE-NCC-HM-MNT
+mnt-by:         PLANEETTA-MNT
+abuse-c:        PLIN-RIPE
+created:        2012-03-15T16:28:40Z
+last-modified:  2020-12-16T12:45:29Z
+source:         RIPE # Filtered
+admin-c:        AXU-RIPE
+admin-c:        LK1557-RIPE
+admin-c:        PLIN-RIPE
+
+% This query was served by the RIPE Database Query Service version 1.103 (WAGYU)
+
+;; Query time: 524 msec
+;; WHEN: Tue Aug 30 17:56:32 EEST 2022
