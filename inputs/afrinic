@@ -1,0 +1,126 @@
+% IANA WHOIS server
+% for more information on IANA, visit http://www.iana.org
+% This query returned 1 object
+
+refer:        whois.arin.net
+
+inetnum:      156.0.0.0 - 156.255.255.255
+organisation: Administered by ARIN
+status:       LEGACY
+
+whois:        whois.arin.net
+
+changed:      1993-05
+source:       IANA
+
+# whois.arin.net
+
+NetRange:       156.211.0.0 - 156.211.255.255
+CIDR:           156.211.0.0/16
+NetName:        AFRINIC-ERX-156-211-0-0
+NetHandle:      NET-156-211-0-0-1
+Parent:         NET156 (NET-156-0-0-0-0)
+NetType:        Transferred to AfriNIC
+OriginAS:       
+Organization:   African Network Information Center (AFRINIC)
+RegDate:        2010-11-03
+Updated:        2010-11-17
+Comment:        This IP address range is under AFRINIC responsibility.
+Comment:        Please see http://www.afrinic.net/ for further details,
+Comment:        or check the WHOIS server located at whois.afrinic.net.
+Ref:            https://rdap.arin.net/registry/ip/156.211.0.0
+
+ResourceLink:  http://afrinic.net/en/services/whois-query
+ResourceLink:  whois.afrinic.net
+
+
+OrgName:        African Network Information Center
+OrgId:          AFRINIC
+Address:        Level 11ABC
+Address:        Raffles Tower
+Address:        Lot 19, Cybercity
+City:           Ebene
+StateProv:      
+PostalCode:     
+Country:        MU
+RegDate:        2004-05-17
+Updated:        2015-05-04
+Comment:        AfriNIC - http://www.afrinic.net
+Comment:        The African & Indian Ocean Internet Registry
+Ref:            https://rdap.arin.net/registry/entity/AFRINIC
+
+ReferralServer:  whois://whois.afrinic.net
+ResourceLink:  http://afrinic.net/en/services/whois-query
+
+OrgAbuseHandle: GENER11-ARIN
+OrgAbuseName:   Generic POC
+OrgAbusePhone:  +230 4666616 
+OrgAbuseEmail:  abusepoc@afrinic.net
+OrgAbuseRef:    https://rdap.arin.net/registry/entity/GENER11-ARIN
+
+OrgTechHandle: GENER11-ARIN
+OrgTechName:   Generic POC
+OrgTechPhone:  +230 4666616 
+OrgTechEmail:  abusepoc@afrinic.net
+OrgTechRef:    https://rdap.arin.net/registry/entity/GENER11-ARIN
+
+
+# whois.afrinic.net
+
+% This is the AfriNIC Whois server.
+% The AFRINIC whois database is subject to  the following terms of Use. See https://afrinic.net/whois/terms
+
+% Note: this output has been filtered.
+%       To receive output for a database update, use the "-B" flag.
+
+% Information related to '156.210.0.0 - 156.211.255.255'
+
+% No abuse contact registered for 156.210.0.0 - 156.211.255.255
+
+inetnum:        156.210.0.0 - 156.211.255.255
+netname:        All-35
+descr:          TE Data
+country:        EG
+admin-c:        TDCR1-AFRINIC
+tech-c:         TDCR2-AFRINIC
+status:         ASSIGNED PA
+remarks:        ====================================================
+remarks:        For Internet Abuse & Spam reports : admins@tedata.net
+remarks:        ====================================================
+mnt-by:         TE-Data-MNT
+source:         AFRINIC # Filtered
+parent:         156.192.0.0 - 156.223.255.255
+
+role:           TE Data Contact Role
+address:        94 Tahrir Street, Dokki, 12311, Giza, Egypt
+phone:          tel:+20-2-33320700
+fax-no:         tel:+20-2-33320800
+admin-c:        TDCR2-AFRINIC
+tech-c:         MH7-AFRINIC
+nic-hdl:        TDCR1-AFRINIC
+abuse-mailbox:  abuse@tedata.net
+mnt-by:         TE-Data-MNT
+source:         AFRINIC # Filtered
+
+role:           TE Data Contact Role-2
+address:        94 Tahrir Street, Dokki, 12311, Giza, Egypt
+phone:          tel:+20-2-33320700
+fax-no:         tel:+20-2-33320800
+admin-c:        TDCR2-AFRINIC
+tech-c:         MH7-AFRINIC
+nic-hdl:        TDCR2-AFRINIC
+abuse-mailbox:  abuse@tedata.net
+mnt-by:         TE-Data-MNT
+source:         AFRINIC # Filtered
+
+% Information related to '156.211.128.0/18AS8452'
+
+route:          156.211.128.0/18
+descr:          Telecom-Egypt-Data
+origin:         AS8452
+mnt-lower:      GEGA-MNT
+mnt-by:         AFRINIC-HM-MNT
+source:         AFRINIC # Filtered
+
+
+

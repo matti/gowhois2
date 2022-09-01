@@ -1,0 +1,70 @@
+% IANA WHOIS server
+% for more information on IANA, visit http://www.iana.org
+% This query returned 1 object
+
+refer:        whois.lacnic.net
+
+inetnum:      200.0.0.0 - 200.255.255.255
+organisation: LACNIC
+status:       ALLOCATED
+
+whois:        whois.lacnic.net
+
+changed:      2002-11
+source:       IANA
+
+# whois.lacnic.net
+
+
+% Joint Whois - whois.lacnic.net
+%  This server accepts single ASN, IPv4 or IPv6 queries
+
+% LACNIC resource: whois.lacnic.net
+
+
+% Copyright LACNIC lacnic.net
+%  The data below is provided for information purposes
+%  and to assist persons in obtaining information about or
+%  related to AS and IP numbers registrations
+%  By submitting a whois query, you agree to use this data
+%  only for lawful purposes.
+%  2022-09-01 05:43:41 (-03 -03:00)
+
+inetnum:     200.24.235.0/24
+status:      reallocated
+aut-num:     AS22860
+owner:       TECNOERA-CORE
+ownerid:     CL-TECN9-LACNIC
+responsible: Juan Pablo Abuyeres
+address:     medio oriente, 831, Of.408
+address:     00000 - Vina del Mar - V
+country:     CL
+phone:       +56 32 2768000
+owner-c:     SIL
+tech-c:      SIL
+abuse-c:     SIL
+inetrev:     200.24.235.0/24
+nserver:     DNS1.TECNOERA.COM
+nsstat:      20220830 AA
+nslastaa:    20220830
+nserver:     DNS2.TECNOERA.COM
+nsstat:      20220830 AA
+nslastaa:    20220830
+created:     20090609
+changed:     20090609
+inetnum-up:  200.24.224.0/20
+
+nic-hdl:     SIL
+person:      Juan Pablo Abuyeres
+e-mail:      lacnic@tecnoera.com
+address:     LONDRES, 536, RECREO
+address:     2580347 - Vina del Mar - V
+country:     CL
+phone:       +56  56997893795 [0000]
+created:     20030226
+changed:     20220107
+
+% whois.lacnic.net accepts only direct match queries.
+% Types of queries are: POCs, ownerid, CIDR blocks, IP
+% and AS numbers.
+

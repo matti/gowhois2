@@ -32,9 +32,16 @@ var registryLines = map[string]string{
 	"% IANA WHOIS server": "iana",
 	"# whois.arin.net":    "arin",
 	"# whois.ripe.net":    "ripe",
-	"% [whois.apnic.net]": "apnic",
+	"# whois.apnic.net":   "apnic",
+	"# whois.lacnic.net":  "lacnic",
+	"# whois.afrinic.net": "afrinic",
+
+	//
 	"# ARIN WHOIS data and services are subject to the Terms of Use": "arin",
 	"% This is the RIPE Database query service.":                     "ripe",
+	"% [whois.apnic.net]":                 "apnic",
+	"% Joint Whois - whois.lacnic.net":    "lacnic",
+	"% This is the AfriNIC Whois server.": "afrinic",
 }
 
 func Parse(data string) Response {
@@ -85,7 +92,7 @@ func Parse(data string) Response {
 		switch registry.Name {
 		case "":
 			panic("failed to detect registry")
-		case "iana", "ripe", "arin", "apnic":
+		case "iana", "ripe", "arin", "apnic", "lacnic", "afrinic":
 		default:
 			panic("unknown registry: '" + registry.Name + "'")
 		}

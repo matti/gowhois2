@@ -1,0 +1,157 @@
+{
+  "registries": [
+    {
+      "name": "iana",
+      "entities": [
+        {
+          "name": "refer",
+          "related": "",
+          "properties": {
+            "refer": [
+              "whois.lacnic.net"
+            ]
+          }
+        },
+        {
+          "name": "inetnum",
+          "related": "",
+          "properties": {
+            "inetnum": [
+              "200.0.0.0 - 200.255.255.255"
+            ],
+            "organisation": [
+              "LACNIC"
+            ],
+            "status": [
+              "ALLOCATED"
+            ]
+          }
+        },
+        {
+          "name": "whois",
+          "related": "",
+          "properties": {
+            "whois": [
+              "whois.lacnic.net"
+            ]
+          }
+        },
+        {
+          "name": "changed",
+          "related": "",
+          "properties": {
+            "changed": [
+              "2002-11"
+            ],
+            "source": [
+              "IANA"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "lacnic",
+      "entities": [
+        {
+          "name": "inetnum",
+          "related": "",
+          "properties": {
+            "abuse-c": [
+              "SIL"
+            ],
+            "address": [
+              "medio oriente, 831, Of.408",
+              "00000 - Vina del Mar - V"
+            ],
+            "aut-num": [
+              "AS22860"
+            ],
+            "changed": [
+              "20090609"
+            ],
+            "country": [
+              "CL"
+            ],
+            "created": [
+              "20090609"
+            ],
+            "inetnum": [
+              "200.24.235.0/24"
+            ],
+            "inetnum-up": [
+              "200.24.224.0/20"
+            ],
+            "inetrev": [
+              "200.24.235.0/24"
+            ],
+            "nserver": [
+              "DNS1.TECNOERA.COM",
+              "DNS2.TECNOERA.COM"
+            ],
+            "nslastaa": [
+              "20220830",
+              "20220830"
+            ],
+            "nsstat": [
+              "20220830 AA",
+              "20220830 AA"
+            ],
+            "owner": [
+              "TECNOERA-CORE"
+            ],
+            "owner-c": [
+              "SIL"
+            ],
+            "ownerid": [
+              "CL-TECN9-LACNIC"
+            ],
+            "phone": [
+              "+56 32 2768000"
+            ],
+            "responsible": [
+              "Juan Pablo Abuyeres"
+            ],
+            "status": [
+              "reallocated"
+            ],
+            "tech-c": [
+              "SIL"
+            ]
+          }
+        },
+        {
+          "name": "nic-hdl",
+          "related": "",
+          "properties": {
+            "address": [
+              "LONDRES, 536, RECREO",
+              "2580347 - Vina del Mar - V"
+            ],
+            "changed": [
+              "20220107"
+            ],
+            "country": [
+              "CL"
+            ],
+            "created": [
+              "20030226"
+            ],
+            "e-mail": [
+              "lacnic@tecnoera.com"
+            ],
+            "nic-hdl": [
+              "SIL"
+            ],
+            "person": [
+              "Juan Pablo Abuyeres"
+            ],
+            "phone": [
+              "+56  56997893795 [0000]"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

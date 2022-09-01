@@ -1,0 +1,351 @@
+{
+  "registries": [
+    {
+      "name": "iana",
+      "entities": [
+        {
+          "name": "refer",
+          "related": "",
+          "properties": {
+            "refer": [
+              "whois.arin.net"
+            ]
+          }
+        },
+        {
+          "name": "inetnum",
+          "related": "",
+          "properties": {
+            "inetnum": [
+              "156.0.0.0 - 156.255.255.255"
+            ],
+            "organisation": [
+              "Administered by ARIN"
+            ],
+            "status": [
+              "LEGACY"
+            ]
+          }
+        },
+        {
+          "name": "whois",
+          "related": "",
+          "properties": {
+            "whois": [
+              "whois.arin.net"
+            ]
+          }
+        },
+        {
+          "name": "changed",
+          "related": "",
+          "properties": {
+            "changed": [
+              "1993-05"
+            ],
+            "source": [
+              "IANA"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "arin",
+      "entities": [
+        {
+          "name": "NetRange",
+          "related": "",
+          "properties": {
+            "CIDR": [
+              "156.211.0.0/16"
+            ],
+            "Comment": [
+              "This IP address range is under AFRINIC responsibility.",
+              "Please see http://www.afrinic.net/ for further details,",
+              "or check the WHOIS server located at whois.afrinic.net."
+            ],
+            "NetHandle": [
+              "NET-156-211-0-0-1"
+            ],
+            "NetName": [
+              "AFRINIC-ERX-156-211-0-0"
+            ],
+            "NetRange": [
+              "156.211.0.0 - 156.211.255.255"
+            ],
+            "NetType": [
+              "Transferred to AfriNIC"
+            ],
+            "Organization": [
+              "African Network Information Center (AFRINIC)"
+            ],
+            "OriginAS": [
+              ""
+            ],
+            "Parent": [
+              "NET156 (NET-156-0-0-0-0)"
+            ],
+            "Ref": [
+              "https://rdap.arin.net/registry/ip/156.211.0.0"
+            ],
+            "RegDate": [
+              "2010-11-03"
+            ],
+            "Updated": [
+              "2010-11-17"
+            ]
+          }
+        },
+        {
+          "name": "ResourceLink",
+          "related": "",
+          "properties": {
+            "ResourceLink": [
+              "http://afrinic.net/en/services/whois-query",
+              "whois.afrinic.net"
+            ]
+          }
+        },
+        {
+          "name": "OrgName",
+          "related": "",
+          "properties": {
+            "Address": [
+              "Level 11ABC",
+              "Raffles Tower",
+              "Lot 19, Cybercity"
+            ],
+            "City": [
+              "Ebene"
+            ],
+            "Comment": [
+              "AfriNIC - http://www.afrinic.net",
+              "The African \u0026 Indian Ocean Internet Registry"
+            ],
+            "Country": [
+              "MU"
+            ],
+            "OrgId": [
+              "AFRINIC"
+            ],
+            "OrgName": [
+              "African Network Information Center"
+            ],
+            "PostalCode": [
+              ""
+            ],
+            "Ref": [
+              "https://rdap.arin.net/registry/entity/AFRINIC"
+            ],
+            "RegDate": [
+              "2004-05-17"
+            ],
+            "StateProv": [
+              ""
+            ],
+            "Updated": [
+              "2015-05-04"
+            ]
+          }
+        },
+        {
+          "name": "ReferralServer",
+          "related": "",
+          "properties": {
+            "ReferralServer": [
+              "whois://whois.afrinic.net"
+            ],
+            "ResourceLink": [
+              "http://afrinic.net/en/services/whois-query"
+            ]
+          }
+        },
+        {
+          "name": "OrgAbuseHandle",
+          "related": "",
+          "properties": {
+            "OrgAbuseEmail": [
+              "abusepoc@afrinic.net"
+            ],
+            "OrgAbuseHandle": [
+              "GENER11-ARIN"
+            ],
+            "OrgAbuseName": [
+              "Generic POC"
+            ],
+            "OrgAbusePhone": [
+              "+230 4666616"
+            ],
+            "OrgAbuseRef": [
+              "https://rdap.arin.net/registry/entity/GENER11-ARIN"
+            ]
+          }
+        },
+        {
+          "name": "OrgTechHandle",
+          "related": "",
+          "properties": {
+            "OrgTechEmail": [
+              "abusepoc@afrinic.net"
+            ],
+            "OrgTechHandle": [
+              "GENER11-ARIN"
+            ],
+            "OrgTechName": [
+              "Generic POC"
+            ],
+            "OrgTechPhone": [
+              "+230 4666616"
+            ],
+            "OrgTechRef": [
+              "https://rdap.arin.net/registry/entity/GENER11-ARIN"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "afrinic",
+      "entities": [
+        {
+          "name": "inetnum",
+          "related": "156.210.0.0 - 156.211.255.255",
+          "properties": {
+            "admin-c": [
+              "TDCR1-AFRINIC"
+            ],
+            "country": [
+              "EG"
+            ],
+            "descr": [
+              "TE Data"
+            ],
+            "inetnum": [
+              "156.210.0.0 - 156.211.255.255"
+            ],
+            "mnt-by": [
+              "TE-Data-MNT"
+            ],
+            "netname": [
+              "All-35"
+            ],
+            "parent": [
+              "156.192.0.0 - 156.223.255.255"
+            ],
+            "remarks": [
+              "====================================================",
+              "For Internet Abuse \u0026 Spam reports : admins@tedata.net",
+              "===================================================="
+            ],
+            "source": [
+              "AFRINIC # Filtered"
+            ],
+            "status": [
+              "ASSIGNED PA"
+            ],
+            "tech-c": [
+              "TDCR2-AFRINIC"
+            ]
+          }
+        },
+        {
+          "name": "role",
+          "related": "156.210.0.0 - 156.211.255.255",
+          "properties": {
+            "abuse-mailbox": [
+              "abuse@tedata.net"
+            ],
+            "address": [
+              "94 Tahrir Street, Dokki, 12311, Giza, Egypt"
+            ],
+            "admin-c": [
+              "TDCR2-AFRINIC"
+            ],
+            "fax-no": [
+              "tel:+20-2-33320800"
+            ],
+            "mnt-by": [
+              "TE-Data-MNT"
+            ],
+            "nic-hdl": [
+              "TDCR1-AFRINIC"
+            ],
+            "phone": [
+              "tel:+20-2-33320700"
+            ],
+            "role": [
+              "TE Data Contact Role"
+            ],
+            "source": [
+              "AFRINIC # Filtered"
+            ],
+            "tech-c": [
+              "MH7-AFRINIC"
+            ]
+          }
+        },
+        {
+          "name": "role",
+          "related": "156.210.0.0 - 156.211.255.255",
+          "properties": {
+            "abuse-mailbox": [
+              "abuse@tedata.net"
+            ],
+            "address": [
+              "94 Tahrir Street, Dokki, 12311, Giza, Egypt"
+            ],
+            "admin-c": [
+              "TDCR2-AFRINIC"
+            ],
+            "fax-no": [
+              "tel:+20-2-33320800"
+            ],
+            "mnt-by": [
+              "TE-Data-MNT"
+            ],
+            "nic-hdl": [
+              "TDCR2-AFRINIC"
+            ],
+            "phone": [
+              "tel:+20-2-33320700"
+            ],
+            "role": [
+              "TE Data Contact Role-2"
+            ],
+            "source": [
+              "AFRINIC # Filtered"
+            ],
+            "tech-c": [
+              "MH7-AFRINIC"
+            ]
+          }
+        },
+        {
+          "name": "route",
+          "related": "156.211.128.0/18AS8452",
+          "properties": {
+            "descr": [
+              "Telecom-Egypt-Data"
+            ],
+            "mnt-by": [
+              "AFRINIC-HM-MNT"
+            ],
+            "mnt-lower": [
+              "GEGA-MNT"
+            ],
+            "origin": [
+              "AS8452"
+            ],
+            "route": [
+              "156.211.128.0/18"
+            ],
+            "source": [
+              "AFRINIC # Filtered"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
