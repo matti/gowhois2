@@ -8,7 +8,7 @@ import (
 	"os"
 
 	"github.com/likexian/whois"
-	"github.com/matti/gowhois"
+	"github.com/matti/gowhois2"
 )
 
 func main() {
@@ -25,7 +25,7 @@ func main() {
 					panic(err)
 				}
 				log.Println(data)
-				fmt.Println(gowhois.Parse(data))
+				fmt.Println(gowhois2.Parse(data))
 			}
 		}
 	}
@@ -44,5 +44,5 @@ func main() {
 		}
 	}
 
-	fmt.Println(gowhois.Parse(data))
+	fmt.Println(gowhois2.Parse(data))
 }

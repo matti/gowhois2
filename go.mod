@@ -1,4 +1,4 @@
-module github.com/matti/gowhois
+module github.com/matti/gowhois2
 
 go 1.18
 

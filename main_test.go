@@ -1,4 +1,4 @@
-package gowhois
+package gowhois2
 
 import (
 	"os"
