@@ -60,11 +60,12 @@ func Parse(data string) Response {
 	relatedLineRegExp := regexp.MustCompile(`^% Information related to '([^']+)'`)
 	registryLineRegExp := regexp.MustCompile(`^#\s(whois\.\S+)$`)
 
+	newRegistry := ""
+	// whois google.com doesn't return any header
+	registry.Name = "default"
 	for _, line := range lines {
-
 		// Registry needs to be checked first before ignoring comments because they start with comment char
 
-		newRegistry := ""
 		if matches := registryLineRegExp.FindStringSubmatch(line); len(matches) > 1 {
 			newRegistry = matches[1]
 		} else if r := registryLines[line]; r != "" {
@@ -102,7 +103,6 @@ func Parse(data string) Response {
 			strings.HasPrefix(line, ">>>") {
 			continue
 		}
-
 		switch registry.Name {
 		case "":
 			panic("failed to detect registry")
