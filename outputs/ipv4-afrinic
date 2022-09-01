@@ -51,7 +51,7 @@
       ]
     },
     {
-      "name": "arin",
+      "name": "whois.arin.net",
       "entities": [
         {
           "name": "NetRange",

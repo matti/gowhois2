@@ -30,11 +30,11 @@ func (r Response) String() string {
 
 var registryLines = map[string]string{
 	"% IANA WHOIS server": "iana",
-	"# whois.arin.net":    "arin",
-	"# whois.ripe.net":    "ripe",
-	"# whois.apnic.net":   "apnic",
-	"# whois.lacnic.net":  "lacnic",
-	"# whois.afrinic.net": "afrinic",
+	// "# whois.arin.net":    "arin",
+	// "# whois.ripe.net":    "ripe",
+	// "# whois.apnic.net":   "apnic",
+	// "# whois.lacnic.net":  "lacnic",
+	// "# whois.afrinic.net": "afrinic",
 
 	//
 	"# ARIN WHOIS data and services are subject to the Terms of Use": "arin",
@@ -45,6 +45,8 @@ var registryLines = map[string]string{
 }
 
 func Parse(data string) Response {
+	// .fi registry
+	data = strings.ReplaceAll(data, "\r", "")
 	lines := strings.Split(data, "\n")
 
 	var response Response
@@ -56,15 +58,26 @@ func Parse(data string) Response {
 
 	keyValueLineRegExp := regexp.MustCompile(`^([^:]+):`)
 	relatedLineRegExp := regexp.MustCompile(`^% Information related to '([^']+)'`)
+	registryLineRegExp := regexp.MustCompile(`^#\s(whois\.\S+)$`)
+
 	for _, line := range lines {
+
 		// Registry needs to be checked first before ignoring comments because they start with comment char
-		if r := registryLines[line]; r != "" {
+
+		newRegistry := ""
+		if matches := registryLineRegExp.FindStringSubmatch(line); len(matches) > 1 {
+			newRegistry = matches[1]
+		} else if r := registryLines[line]; r != "" {
+			newRegistry = r
+		}
+
+		if newRegistry != "" {
 			// if new registry is found, append to registries first
 			if registry.Name != "" && len(registry.Entities) > 0 {
 				response.Registries = append(response.Registries, registry)
 			}
 			registry = Registry{
-				Name:     r,
+				Name:     newRegistry,
 				Entities: []Entity{},
 			}
 			continue
@@ -85,21 +98,24 @@ func Parse(data string) Response {
 
 		if strings.HasPrefix(line, "#") ||
 			strings.HasPrefix(line, ";;") ||
-			strings.HasPrefix(line, "%") {
+			strings.HasPrefix(line, "%") ||
+			strings.HasPrefix(line, ">>>") {
 			continue
 		}
 
 		switch registry.Name {
 		case "":
 			panic("failed to detect registry")
-		case "iana", "ripe", "arin", "apnic", "lacnic", "afrinic":
-		default:
-			panic("unknown registry: '" + registry.Name + "'")
 		}
 
 		if keyValueLineRegExp.MatchString(line) {
 			parts := strings.SplitN(line, ":", 2)
 			key = parts[0]
+			// domain-com has indented keys..
+			key = strings.TrimSpace(key)
+
+			// fi "domain..........: something.fi"
+			key = strings.ReplaceAll(key, ".", "")
 			// Value can be empty when line "OriginAS:"
 			value := parts[1]
 
@@ -126,7 +142,9 @@ func Parse(data string) Response {
 			continue
 		}
 
-		panic("unknown line '" + line + "'")
+		// Orphan "Nameservers" title like in domain-fi
+		entity.Name = line
+		entity.Properties = make(map[string][]string)
 	}
 
 	// arin.txt has arin identifier again at the end, do not add a new registry without entities

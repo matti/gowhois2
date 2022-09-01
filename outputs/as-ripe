@@ -1,0 +1,316 @@
+{
+  "registries": [
+    {
+      "name": "iana",
+      "entities": [
+        {
+          "name": "refer",
+          "related": "",
+          "properties": {
+            "refer": [
+              "whois.ripe.net"
+            ]
+          }
+        },
+        {
+          "name": "as-block",
+          "related": "",
+          "properties": {
+            "as-block": [
+              "57344-58367"
+            ],
+            "organisation": [
+              "Assigned by RIPE NCC"
+            ]
+          }
+        },
+        {
+          "name": "whois",
+          "related": "",
+          "properties": {
+            "descr": [
+              "Assigned by RIPE NCC"
+            ],
+            "whois": [
+              "whois.ripe.net"
+            ]
+          }
+        },
+        {
+          "name": "changed",
+          "related": "",
+          "properties": {
+            "changed": [
+              "2011-01-04"
+            ],
+            "source": [
+              "IANA"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "whois.ripe.net",
+      "entities": [
+        {
+          "name": "as-block",
+          "related": "",
+          "properties": {
+            "as-block": [
+              "AS56320 - AS58367"
+            ],
+            "created": [
+              "2018-11-22T15:27:34Z"
+            ],
+            "descr": [
+              "RIPE NCC ASN block"
+            ],
+            "last-modified": [
+              "2018-11-22T15:27:34Z"
+            ],
+            "mnt-by": [
+              "RIPE-NCC-HM-MNT"
+            ],
+            "remarks": [
+              "These AS Numbers are assigned to network operators in the RIPE NCC service region."
+            ],
+            "source": [
+              "RIPE"
+            ]
+          }
+        },
+        {
+          "name": "aut-num",
+          "related": "AS58003",
+          "properties": {
+            "admin-c": [
+              "PLIN-RIPE"
+            ],
+            "as-name": [
+              "PLANEETTA-AS"
+            ],
+            "aut-num": [
+              "AS58003"
+            ],
+            "created": [
+              "2012-03-30T08:40:11Z"
+            ],
+            "export": [
+              "to AS3356 announce AS58003:AS-ALL",
+              "to AS47605 announce AS58003:AS-ALL",
+              "to AS1759 announce AS58003:AS-ALL",
+              "to AS29432 announce AS58003:AS-ALL",
+              "to AS197032 announce AS58003:AS-ALL",
+              "to AS42 announce AS58003:AS-ALL",
+              "to AS3856 announce AS58003:AS-ALL",
+              "to AS1741 announce AS58003:AS-ALL",
+              "to AS16302 announce AS58003:AS-ALL",
+              "to AS20904 announce AS58003:AS-ALL",
+              "to AS12552 announce AS58003:AS-ALL",
+              "to AS41194 announce AS58003:AS-ALL",
+              "to AS60116 announce AS58003:AS-ALL",
+              "to AS1741 announce AS58003:AS-ALL",
+              "to AS16302 announce AS58003:AS-ALL",
+              "to AS8075 announce AS58003:AS-ALL",
+              "to AS6939 announce AS58003:AS-ALL",
+              "to AS13335 announce AS58003:AS-ALL",
+              "to AS13170 announce AS58003:AS-ALL",
+              "to AS26415 announce AS58003:AS-ALL",
+              "to AS2603 announce AS58003:AS-ALL",
+              "to AS12552 announce AS58003:AS-ALL"
+            ],
+            "import": [
+              "from AS3356 accept ANY",
+              "from AS47605 accept ANY",
+              "from AS1759 accept AS-TSF-Customers AS-TSF-PEER",
+              "from AS29432 accept AS29432:AS-PEERING",
+              "from AS197032 accept AS197032:AS-ALL",
+              "from AS42 accept AS-PCH",
+              "from AS3856 accept AS-PCH",
+              "from AS1741 accept AS-FUNET",
+              "from AS16302 accept AS-SUOMICOM",
+              "from AS20904 accept AS-NETPLAZA",
+              "from AS12552 accept AS-IPO",
+              "from AS41194 accept ANY",
+              "from AS60116 accept AS60116",
+              "from AS1741 accept AS-FUNET",
+              "from AS16302 accept AS-SUOMICOM",
+              "from AS8075 accept AS8075",
+              "from AS6939 accept AS-HURRICANE",
+              "from AS13335 accept AS-CLOUDFLARE",
+              "from AS13170 accept AS-KAISANET",
+              "from AS26415 accept AS-GTLD",
+              "from AS2603 accept AS-NORDUNET",
+              "from AS12552 accept AS-IPO"
+            ],
+            "last-modified": [
+              "2021-08-16T04:30:05Z"
+            ],
+            "mnt-by": [
+              "RIPE-NCC-END-MNT",
+              "PLANEETTA-MNT"
+            ],
+            "org": [
+              "ORG-PIO3-RIPE"
+            ],
+            "remarks": [
+              "*** TRANSITS ***",
+              "*** PEERS at TREX ***",
+              "*** PEERS at FICIX ***"
+            ],
+            "source": [
+              "RIPE # Filtered"
+            ],
+            "status": [
+              "ASSIGNED"
+            ],
+            "tech-c": [
+              "PLIN-RIPE",
+              "AXU-RIPE"
+            ]
+          }
+        },
+        {
+          "name": "organisation",
+          "related": "AS58003",
+          "properties": {
+            "abuse-c": [
+              "PLIN-RIPE"
+            ],
+            "address": [
+              "Mannerheimintie 105,",
+              "00280",
+              "Helsinki",
+              "FINLAND"
+            ],
+            "admin-c": [
+              "AXU-RIPE",
+              "LK1557-RIPE",
+              "PLIN-RIPE"
+            ],
+            "country": [
+              "FI"
+            ],
+            "created": [
+              "2012-03-15T16:28:40Z"
+            ],
+            "fax-no": [
+              "+358105251449"
+            ],
+            "last-modified": [
+              "2020-12-16T12:45:29Z"
+            ],
+            "mnt-by": [
+              "RIPE-NCC-HM-MNT",
+              "PLANEETTA-MNT"
+            ],
+            "mnt-ref": [
+              "PLANEETTA-MNT",
+              "RIPE-NCC-HM-MNT"
+            ],
+            "org-name": [
+              "Planeetta Internet Oy"
+            ],
+            "org-type": [
+              "LIR"
+            ],
+            "organisation": [
+              "ORG-PIO3-RIPE"
+            ],
+            "phone": [
+              "+358105251440"
+            ],
+            "source": [
+              "RIPE # Filtered"
+            ]
+          }
+        },
+        {
+          "name": "role",
+          "related": "AS58003",
+          "properties": {
+            "abuse-mailbox": [
+              "abuse@planeetta.fi"
+            ],
+            "address": [
+              "Planeetta Internet Oy",
+              "Mannerheimintie 105",
+              "00280 Helsinki",
+              "Finland"
+            ],
+            "admin-c": [
+              "LK1557-RIPE"
+            ],
+            "created": [
+              "2005-08-16T15:32:32Z"
+            ],
+            "fax-no": [
+              "+358 10 525 1449"
+            ],
+            "last-modified": [
+              "2019-09-26T00:59:18Z"
+            ],
+            "mnt-by": [
+              "PLANEETTA-MNT"
+            ],
+            "nic-hdl": [
+              "PLIN-RIPE"
+            ],
+            "org": [
+              "ORG-PIO1-RIPE"
+            ],
+            "phone": [
+              "+358 10 525 1440"
+            ],
+            "role": [
+              "Planeetta Internet Hostmaster"
+            ],
+            "source": [
+              "RIPE # Filtered"
+            ],
+            "tech-c": [
+              "AXU-RIPE",
+              "TM3893-RIPE"
+            ]
+          }
+        },
+        {
+          "name": "person",
+          "related": "AS58003",
+          "properties": {
+            "address": [
+              "Axu TM Oy",
+              "http://www.axu.tm/",
+              "Hermiankatu 6 A",
+              "c/o Joviaali",
+              "FIN-33720 Tampere",
+              "Finland"
+            ],
+            "created": [
+              "1970-01-01T00:00:00Z"
+            ],
+            "last-modified": [
+              "2022-01-03T15:07:44Z"
+            ],
+            "mnt-by": [
+              "TREX-MNT"
+            ],
+            "nic-hdl": [
+              "AXU-RIPE"
+            ],
+            "person": [
+              "Aleksi Suhonen"
+            ],
+            "phone": [
+              "+358 44 975 6548"
+            ],
+            "source": [
+              "RIPE # Filtered"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

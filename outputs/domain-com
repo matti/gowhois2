@@ -1,0 +1,323 @@
+{
+  "registries": [
+    {
+      "name": "iana",
+      "entities": [
+        {
+          "name": "refer",
+          "related": "",
+          "properties": {
+            "refer": [
+              "whois.verisign-grs.com"
+            ]
+          }
+        },
+        {
+          "name": "domain",
+          "related": "",
+          "properties": {
+            "domain": [
+              "COM"
+            ]
+          }
+        },
+        {
+          "name": "organisation",
+          "related": "",
+          "properties": {
+            "address": [
+              "12061 Bluemont Way",
+              "Reston Virginia 20190",
+              "United States"
+            ],
+            "organisation": [
+              "VeriSign Global Registry Services"
+            ]
+          }
+        },
+        {
+          "name": "contact",
+          "related": "",
+          "properties": {
+            "address": [
+              "12061 Bluemont Way",
+              "Reston Virginia 20190",
+              "United States"
+            ],
+            "contact": [
+              "administrative"
+            ],
+            "e-mail": [
+              "info@verisign-grs.com"
+            ],
+            "fax-no": [
+              "+1 703 948 3978"
+            ],
+            "name": [
+              "Registry Customer Service"
+            ],
+            "organisation": [
+              "VeriSign Global Registry Services"
+            ],
+            "phone": [
+              "+1 703 925-6999"
+            ]
+          }
+        },
+        {
+          "name": "contact",
+          "related": "",
+          "properties": {
+            "address": [
+              "12061 Bluemont Way",
+              "Reston Virginia 20190",
+              "United States"
+            ],
+            "contact": [
+              "technical"
+            ],
+            "e-mail": [
+              "info@verisign-grs.com"
+            ],
+            "fax-no": [
+              "+1 703 948 3978"
+            ],
+            "name": [
+              "Registry Customer Service"
+            ],
+            "organisation": [
+              "VeriSign Global Registry Services"
+            ],
+            "phone": [
+              "+1 703 925-6999"
+            ]
+          }
+        },
+        {
+          "name": "nserver",
+          "related": "",
+          "properties": {
+            "ds-rdata": [
+              "30909 8 2 E2D3C916F6DEEAC73294E8268FB5885044A833FC5459588F4A9184CFC41A5766"
+            ],
+            "nserver": [
+              "A.GTLD-SERVERS.NET 192.5.6.30 2001:503:a83e:0:0:0:2:30",
+              "B.GTLD-SERVERS.NET 192.33.14.30 2001:503:231d:0:0:0:2:30",
+              "C.GTLD-SERVERS.NET 192.26.92.30 2001:503:83eb:0:0:0:0:30",
+              "D.GTLD-SERVERS.NET 192.31.80.30 2001:500:856e:0:0:0:0:30",
+              "E.GTLD-SERVERS.NET 192.12.94.30 2001:502:1ca1:0:0:0:0:30",
+              "F.GTLD-SERVERS.NET 192.35.51.30 2001:503:d414:0:0:0:0:30",
+              "G.GTLD-SERVERS.NET 192.42.93.30 2001:503:eea3:0:0:0:0:30",
+              "H.GTLD-SERVERS.NET 192.54.112.30 2001:502:8cc:0:0:0:0:30",
+              "I.GTLD-SERVERS.NET 192.43.172.30 2001:503:39c1:0:0:0:0:30",
+              "J.GTLD-SERVERS.NET 192.48.79.30 2001:502:7094:0:0:0:0:30",
+              "K.GTLD-SERVERS.NET 192.52.178.30 2001:503:d2d:0:0:0:0:30",
+              "L.GTLD-SERVERS.NET 192.41.162.30 2001:500:d937:0:0:0:0:30",
+              "M.GTLD-SERVERS.NET 192.55.83.30 2001:501:b1f9:0:0:0:0:30"
+            ]
+          }
+        },
+        {
+          "name": "whois",
+          "related": "",
+          "properties": {
+            "whois": [
+              "whois.verisign-grs.com"
+            ]
+          }
+        },
+        {
+          "name": "status",
+          "related": "",
+          "properties": {
+            "remarks": [
+              "Registration information: http://www.verisigninc.com"
+            ],
+            "status": [
+              "ACTIVE"
+            ]
+          }
+        },
+        {
+          "name": "created",
+          "related": "",
+          "properties": {
+            "changed": [
+              "2017-10-05"
+            ],
+            "created": [
+              "1985-01-01"
+            ],
+            "source": [
+              "IANA"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "whois.verisign-grs.com",
+      "entities": [
+        {
+          "name": "Domain Name",
+          "related": "",
+          "properties": {
+            "Creation Date": [
+              "1997-09-15T04:00:00Z"
+            ],
+            "DNSSEC": [
+              "unsigned"
+            ],
+            "Domain Name": [
+              "GOOGLE.COM"
+            ],
+            "Domain Status": [
+              "clientDeleteProhibited https://icann.org/epp#clientDeleteProhibited",
+              "clientTransferProhibited https://icann.org/epp#clientTransferProhibited",
+              "clientUpdateProhibited https://icann.org/epp#clientUpdateProhibited",
+              "serverDeleteProhibited https://icann.org/epp#serverDeleteProhibited",
+              "serverTransferProhibited https://icann.org/epp#serverTransferProhibited",
+              "serverUpdateProhibited https://icann.org/epp#serverUpdateProhibited"
+            ],
+            "Name Server": [
+              "NS1.GOOGLE.COM",
+              "NS2.GOOGLE.COM",
+              "NS3.GOOGLE.COM",
+              "NS4.GOOGLE.COM"
+            ],
+            "Registrar": [
+              "MarkMonitor Inc."
+            ],
+            "Registrar Abuse Contact Email": [
+              "abusecomplaints@markmonitor.com"
+            ],
+            "Registrar Abuse Contact Phone": [
+              "+1.2086851750"
+            ],
+            "Registrar IANA ID": [
+              "292"
+            ],
+            "Registrar URL": [
+              "http://www.markmonitor.com"
+            ],
+            "Registrar WHOIS Server": [
+              "whois.markmonitor.com"
+            ],
+            "Registry Domain ID": [
+              "2138514_DOMAIN_COM-VRSN"
+            ],
+            "Registry Expiry Date": [
+              "2028-09-14T04:00:00Z"
+            ],
+            "URL of the ICANN Whois Inaccuracy Complaint Form": [
+              "https://www.icann.org/wicf/"
+            ],
+            "Updated Date": [
+              "2019-09-09T15:39:04Z"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "whois.markmonitor.com",
+      "entities": [
+        {
+          "name": "Domain Name",
+          "related": "",
+          "properties": {
+            "Admin Country": [
+              "US"
+            ],
+            "Admin Email": [
+              "Select Request Email Form at https://domains.markmonitor.com/whois/google.com"
+            ],
+            "Admin Organization": [
+              "Google LLC"
+            ],
+            "Admin State/Province": [
+              "CA"
+            ],
+            "Creation Date": [
+              "1997-09-15T07:00:00+0000"
+            ],
+            "DNSSEC": [
+              "unsigned"
+            ],
+            "Domain Name": [
+              "google.com"
+            ],
+            "Domain Status": [
+              "clientUpdateProhibited (https://www.icann.org/epp#clientUpdateProhibited)",
+              "clientTransferProhibited (https://www.icann.org/epp#clientTransferProhibited)",
+              "clientDeleteProhibited (https://www.icann.org/epp#clientDeleteProhibited)",
+              "serverUpdateProhibited (https://www.icann.org/epp#serverUpdateProhibited)",
+              "serverTransferProhibited (https://www.icann.org/epp#serverTransferProhibited)",
+              "serverDeleteProhibited (https://www.icann.org/epp#serverDeleteProhibited)"
+            ],
+            "Name Server": [
+              "ns4.google.com",
+              "ns1.google.com",
+              "ns3.google.com",
+              "ns2.google.com"
+            ],
+            "Registrant Country": [
+              "US"
+            ],
+            "Registrant Email": [
+              "Select Request Email Form at https://domains.markmonitor.com/whois/google.com"
+            ],
+            "Registrant Organization": [
+              "Google LLC"
+            ],
+            "Registrant State/Province": [
+              "CA"
+            ],
+            "Registrar": [
+              "MarkMonitor, Inc."
+            ],
+            "Registrar Abuse Contact Email": [
+              "abusecomplaints@markmonitor.com"
+            ],
+            "Registrar Abuse Contact Phone": [
+              "+1.2083895770"
+            ],
+            "Registrar IANA ID": [
+              "292"
+            ],
+            "Registrar Registration Expiration Date": [
+              "2028-09-13T07:00:00+0000"
+            ],
+            "Registrar URL": [
+              "http://www.markmonitor.com"
+            ],
+            "Registrar WHOIS Server": [
+              "whois.markmonitor.com"
+            ],
+            "Registry Domain ID": [
+              "2138514_DOMAIN_COM-VRSN"
+            ],
+            "Tech Country": [
+              "US"
+            ],
+            "Tech Email": [
+              "Select Request Email Form at https://domains.markmonitor.com/whois/google.com"
+            ],
+            "Tech Organization": [
+              "Google LLC"
+            ],
+            "Tech State/Province": [
+              "CA"
+            ],
+            "URL of the ICANN WHOIS Data Problem Reporting System": [
+              "http://wdprs.internic.net/"
+            ],
+            "Updated Date": [
+              "2019-09-09T15:39:04+0000"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

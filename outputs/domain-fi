@@ -1,0 +1,246 @@
+{
+  "registries": [
+    {
+      "name": "iana",
+      "entities": [
+        {
+          "name": "refer",
+          "related": "",
+          "properties": {
+            "refer": [
+              "whois.fi"
+            ]
+          }
+        },
+        {
+          "name": "domain",
+          "related": "",
+          "properties": {
+            "domain": [
+              "FI"
+            ]
+          }
+        },
+        {
+          "name": "organisation",
+          "related": "",
+          "properties": {
+            "address": [
+              "PO Box 320",
+              "Helsinki",
+              "FI-00059 TRAFICOM",
+              "Business ID 2924753-3",
+              "Finland"
+            ],
+            "organisation": [
+              "Finnish Transport and Communications Agency Traficom"
+            ]
+          }
+        },
+        {
+          "name": "contact",
+          "related": "",
+          "properties": {
+            "address": [
+              "PO Box 320",
+              "FI-00059 TRAFICOM",
+              "Finland"
+            ],
+            "contact": [
+              "administrative"
+            ],
+            "e-mail": [
+              "firootadmin@traficom.fi"
+            ],
+            "name": [
+              "Domain Names"
+            ],
+            "organisation": [
+              "Finnish Transport and Communications Agency Traficom"
+            ],
+            "phone": [
+              "+358 295 345 000"
+            ]
+          }
+        },
+        {
+          "name": "contact",
+          "related": "",
+          "properties": {
+            "address": [
+              "PO Box 320",
+              "FI-00059 TRAFICOM",
+              "Finland"
+            ],
+            "contact": [
+              "technical"
+            ],
+            "e-mail": [
+              "firootadmin@traficom.fi"
+            ],
+            "name": [
+              "Sami Salmensuo"
+            ],
+            "organisation": [
+              "Finnish Transport and Communications Agency Traficom"
+            ],
+            "phone": [
+              "+358 295 345 000"
+            ]
+          }
+        },
+        {
+          "name": "nserver",
+          "related": "",
+          "properties": {
+            "ds-rdata": [
+              "54049 8 2 924e552f60cbc5aa2517d0f59d658b119f211113e9a98f34402396ec8a96a2d1"
+            ],
+            "nserver": [
+              "A.FI 193.166.4.1 2001:708:10:53:0:0:0:53",
+              "B.FI 194.146.106.26 2001:67c:1010:6:0:0:0:53",
+              "C.FI 194.0.11.104 2001:678:e:104:0:0:0:53",
+              "D.FI 2a01:3f0:0:302:0:0:0:53 77.72.229.253",
+              "E.FI 194.0.1.14 2001:678:4:0:0:0:0:e",
+              "F.FI 2a00:13f0:0:3:0:0:0:aaaa 87.239.127.198",
+              "G.FI 2001:500:14:6098:ad:0:0:1 204.61.216.98",
+              "H.FI 2001:678:a0:0:0:0:0:aaaa 87.239.120.11",
+              "I.FI 194.0.25.30 2001:678:20:0:0:0:0:30",
+              "J.FI 185.159.199.190 2620:10a:80ac:0:0:0:0:190"
+            ]
+          }
+        },
+        {
+          "name": "whois",
+          "related": "",
+          "properties": {
+            "whois": [
+              "whois.fi"
+            ]
+          }
+        },
+        {
+          "name": "status",
+          "related": "",
+          "properties": {
+            "remarks": [
+              "Registration information: https://domain.fi"
+            ],
+            "status": [
+              "ACTIVE"
+            ]
+          }
+        },
+        {
+          "name": "created",
+          "related": "",
+          "properties": {
+            "changed": [
+              "2021-07-29"
+            ],
+            "created": [
+              "1986-12-17"
+            ],
+            "source": [
+              "IANA"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "whois.fi",
+      "entities": [
+        {
+          "name": "domain",
+          "related": "",
+          "properties": {
+            "RegistryLock": [
+              "no"
+            ],
+            "available": [
+              "7.10.2023 00:00:00"
+            ],
+            "created": [
+              "7.9.2003 11:26:57"
+            ],
+            "domain": [
+              "planeetta.fi"
+            ],
+            "expires": [
+              "7.9.2023 00:00:00"
+            ],
+            "modified": [
+              "20.11.2020 13:39:45"
+            ],
+            "status": [
+              "Registered"
+            ]
+          }
+        },
+        {
+          "name": "Nameservers",
+          "related": "",
+          "properties": {
+            "nserver": [
+              "ns3.planeetta.org [OK]",
+              "ns2.planeetta.net [OK]",
+              "ns1.planeetta.net [OK]"
+            ]
+          }
+        },
+        {
+          "name": "DNSSEC",
+          "related": "",
+          "properties": {
+            "dnssec": [
+              "no"
+            ]
+          }
+        },
+        {
+          "name": "Holder",
+          "related": "",
+          "properties": {
+            "address": [
+              "Mannerheimintie 105"
+            ],
+            "city": [
+              "Helsinki"
+            ],
+            "country": [
+              "Finland"
+            ],
+            "holder email": [
+              ""
+            ],
+            "name": [
+              "Planeetta Internet Oy"
+            ],
+            "phone": [
+              ""
+            ],
+            "postal": [
+              "00280"
+            ],
+            "register number": [
+              "1753494-9"
+            ]
+          }
+        },
+        {
+          "name": "Registrar",
+          "related": "",
+          "properties": {
+            "registrar": [
+              "Planeetta Internet Oy"
+            ],
+            "www": [
+              "www.planeetta.fi"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
