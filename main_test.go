@@ -6,8 +6,8 @@ import (
 	"testing"
 )
 
-func TestVersion(t *testing.T) {
-	if paths, err := filepath.Glob("tests/*"); err != nil {
+func TestParse(t *testing.T) {
+	if paths, err := filepath.Glob("tests/*.txt"); err != nil {
 		panic(err)
 	} else {
 		for _, path := range paths {

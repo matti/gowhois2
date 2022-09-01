@@ -1,0 +1,300 @@
+{
+  "registries": [
+    {
+      "name": "arin",
+      "entities": [
+        {
+          "name": "NetRange",
+          "related": "",
+          "properties": {
+            "CIDR": [
+              "45.10.0.0/19, 45.8.0.0/15, 45.10.56.0/24, 45.10.32.0/20, 45.10.48.0/21"
+            ],
+            "NetHandle": [
+              "NET-45-8-0-0-1"
+            ],
+            "NetName": [
+              "RIPE"
+            ],
+            "NetRange": [
+              "45.8.0.0 - 45.10.56.255"
+            ],
+            "NetType": [
+              "Early Registrations, Transferred to RIPE NCC"
+            ],
+            "Organization": [
+              "RIPE Network Coordination Centre (RIPE)"
+            ],
+            "OriginAS": [
+              ""
+            ],
+            "Parent": [
+              "NET45 (NET-45-0-0-0-0)"
+            ],
+            "Ref": [
+              "https://rdap.arin.net/registry/ip/45.8.0.0"
+            ],
+            "RegDate": [
+              "2015-03-03"
+            ],
+            "Updated": [
+              "2021-09-02"
+            ]
+          }
+        },
+        {
+          "name": "ResourceLink",
+          "related": "",
+          "properties": {
+            "ResourceLink": [
+              "https://apps.db.ripe.net/search/query.html",
+              "whois.ripe.net"
+            ]
+          }
+        },
+        {
+          "name": "OrgName",
+          "related": "",
+          "properties": {
+            "Address": [
+              "P.O. Box 10096"
+            ],
+            "City": [
+              "Amsterdam"
+            ],
+            "Country": [
+              "NL"
+            ],
+            "OrgId": [
+              "RIPE"
+            ],
+            "OrgName": [
+              "RIPE Network Coordination Centre"
+            ],
+            "PostalCode": [
+              "1001EB"
+            ],
+            "Ref": [
+              "https://rdap.arin.net/registry/entity/RIPE"
+            ],
+            "RegDate": [
+              ""
+            ],
+            "StateProv": [
+              ""
+            ],
+            "Updated": [
+              "2013-07-29"
+            ]
+          }
+        },
+        {
+          "name": "ReferralServer",
+          "related": "",
+          "properties": {
+            "ReferralServer": [
+              "whois://whois.ripe.net"
+            ],
+            "ResourceLink": [
+              "https://apps.db.ripe.net/search/query.html"
+            ]
+          }
+        },
+        {
+          "name": "OrgAbuseHandle",
+          "related": "",
+          "properties": {
+            "OrgAbuseEmail": [
+              "abuse@ripe.net"
+            ],
+            "OrgAbuseHandle": [
+              "ABUSE3850-ARIN"
+            ],
+            "OrgAbuseName": [
+              "Abuse Contact"
+            ],
+            "OrgAbusePhone": [
+              "+31205354444"
+            ],
+            "OrgAbuseRef": [
+              "https://rdap.arin.net/registry/entity/ABUSE3850-ARIN"
+            ]
+          }
+        },
+        {
+          "name": "OrgTechHandle",
+          "related": "",
+          "properties": {
+            "OrgTechEmail": [
+              "hostmaster@ripe.net"
+            ],
+            "OrgTechHandle": [
+              "RNO29-ARIN"
+            ],
+            "OrgTechName": [
+              "RIPE NCC Operations"
+            ],
+            "OrgTechPhone": [
+              "+31 20 535 4444"
+            ],
+            "OrgTechRef": [
+              "https://rdap.arin.net/registry/entity/RNO29-ARIN"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "ripe",
+      "entities": [
+        {
+          "name": "inetnum",
+          "related": "45.8.128.0 - 45.8.131.255",
+          "properties": {
+            "admin-c": [
+              "TW2611-RIPE"
+            ],
+            "country": [
+              "FI"
+            ],
+            "created": [
+              "2021-05-07T10:29:36Z"
+            ],
+            "inetnum": [
+              "45.8.128.0 - 45.8.131.255"
+            ],
+            "last-modified": [
+              "2021-05-07T10:29:36Z"
+            ],
+            "mnt-by": [
+              "S1-MNT",
+              "RIPE-NCC-HM-MNT"
+            ],
+            "netname": [
+              "FI-S1NETWORKS-20190415"
+            ],
+            "org": [
+              "ORG-SNO2-RIPE"
+            ],
+            "source": [
+              "RIPE"
+            ],
+            "status": [
+              "ALLOCATED PA"
+            ],
+            "tech-c": [
+              "TW2611-RIPE"
+            ]
+          }
+        },
+        {
+          "name": "organisation",
+          "related": "45.8.128.0 - 45.8.131.255",
+          "properties": {
+            "abuse-c": [
+              "AR15142-RIPE"
+            ],
+            "address": [
+              "Lemuntie 7 A",
+              "00510",
+              "Helsinki",
+              "FINLAND"
+            ],
+            "admin-c": [
+              "NK3563-RIPE",
+              "TW2611-RIPE",
+              "MK19047-RIPE"
+            ],
+            "country": [
+              "FI"
+            ],
+            "created": [
+              "2012-11-22T09:49:14Z"
+            ],
+            "last-modified": [
+              "2020-12-16T12:34:12Z"
+            ],
+            "mnt-by": [
+              "RIPE-NCC-HM-MNT",
+              "S1-MNT"
+            ],
+            "mnt-ref": [
+              "RIPE-NCC-HM-MNT",
+              "S1-MNT"
+            ],
+            "org-name": [
+              "S1 Networks Oy"
+            ],
+            "org-type": [
+              "LIR"
+            ],
+            "organisation": [
+              "ORG-SNO2-RIPE"
+            ],
+            "phone": [
+              "+358207345752"
+            ],
+            "source": [
+              "RIPE # Filtered"
+            ]
+          }
+        },
+        {
+          "name": "person",
+          "related": "45.8.128.0 - 45.8.131.255",
+          "properties": {
+            "address": [
+              "Lemuntie 7 A",
+              "00510 Helsinki"
+            ],
+            "created": [
+              "2012-11-26T14:27:47Z"
+            ],
+            "last-modified": [
+              "2018-04-24T16:40:56Z"
+            ],
+            "mnt-by": [
+              "S1-MNT"
+            ],
+            "nic-hdl": [
+              "TW2611-RIPE"
+            ],
+            "person": [
+              "Thomas Willberg"
+            ],
+            "phone": [
+              "+358-20-7345756"
+            ],
+            "source": [
+              "RIPE # Filtered"
+            ]
+          }
+        },
+        {
+          "name": "route",
+          "related": "45.8.128.0/22AS199508",
+          "properties": {
+            "created": [
+              "2021-09-08T09:42:33Z"
+            ],
+            "last-modified": [
+              "2021-09-08T09:42:33Z"
+            ],
+            "mnt-by": [
+              "S1-MNT"
+            ],
+            "origin": [
+              "AS199508"
+            ],
+            "route": [
+              "45.8.128.0/22"
+            ],
+            "source": [
+              "RIPE"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

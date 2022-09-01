@@ -1,0 +1,271 @@
+{
+  "registries": [
+    {
+      "name": "arin",
+      "entities": [
+        {
+          "name": "NetRange",
+          "related": "",
+          "properties": {
+            "CIDR": [
+              "8.0.0.0/9"
+            ],
+            "NetHandle": [
+              "NET-8-0-0-0-1"
+            ],
+            "NetName": [
+              "LVLT-ORG-8-8"
+            ],
+            "NetRange": [
+              "8.0.0.0 - 8.127.255.255"
+            ],
+            "NetType": [
+              "Direct Allocation"
+            ],
+            "Organization": [
+              "Level 3 Parent, LLC (LPL-141)"
+            ],
+            "OriginAS": [
+              ""
+            ],
+            "Parent": [
+              "NET8 (NET-8-0-0-0-0)"
+            ],
+            "Ref": [
+              "https://rdap.arin.net/registry/ip/8.0.0.0"
+            ],
+            "RegDate": [
+              "1992-12-01"
+            ],
+            "Updated": [
+              "2018-04-23"
+            ]
+          }
+        },
+        {
+          "name": "OrgName",
+          "related": "",
+          "properties": {
+            "Address": [
+              "100 CenturyLink Drive"
+            ],
+            "City": [
+              "Monroe"
+            ],
+            "Comment": [
+              "ADDRESSES WITHIN THIS BLOCK ARE NON-PORTABLE ANY ISP ANNOUNCING OR TRANSITING PORTIONS WITHIN OUR RANGES SHOULD NOT RELY ON PRESENTED LOA'S UNLESS THOSE RANGES ARE ALSO ANNOUNCED TO A LUMEN ASN.",
+              "",
+              "Our looking glass is located at: https://lookingglass.centurylink.com/",
+              "",
+              "For subpoena or court order please fax 844.254.5800 or refer to our Trust \u0026 Safety page:",
+              "https://www.lumen.com/en-us/about/legal/trust-center/trust-and-safety.html",
+              "",
+              "For abuse issues, please email abuse@aup.lumen.com",
+              "All abuse reports MUST include:",
+              "* src IP",
+              "* dest IP (your IP)",
+              "* dest port",
+              "* Accurate date/timestamp and timezone of activity",
+              "* Intensity/frequency (short log extracts)",
+              "* Your contact details (phone and email)",
+              "Without these we will be unable to identify the correct owner of the IP address at that point in time."
+            ],
+            "Country": [
+              "US"
+            ],
+            "OrgId": [
+              "LPL-141"
+            ],
+            "OrgName": [
+              "Level 3 Parent, LLC"
+            ],
+            "PostalCode": [
+              "71203"
+            ],
+            "Ref": [
+              "https://rdap.arin.net/registry/entity/LPL-141"
+            ],
+            "RegDate": [
+              "2018-02-06"
+            ],
+            "StateProv": [
+              "LA"
+            ],
+            "Updated": [
+              "2021-09-23"
+            ]
+          }
+        },
+        {
+          "name": "OrgTechHandle",
+          "related": "",
+          "properties": {
+            "OrgTechEmail": [
+              "ipaddressing@level3.com"
+            ],
+            "OrgTechHandle": [
+              "IPADD5-ARIN"
+            ],
+            "OrgTechName": [
+              "ipaddressing"
+            ],
+            "OrgTechPhone": [
+              "+1-877-453-8353"
+            ],
+            "OrgTechRef": [
+              "https://rdap.arin.net/registry/entity/IPADD5-ARIN"
+            ]
+          }
+        },
+        {
+          "name": "OrgAbuseHandle",
+          "related": "",
+          "properties": {
+            "OrgAbuseEmail": [
+              "abuse@level3.com"
+            ],
+            "OrgAbuseHandle": [
+              "LAC56-ARIN"
+            ],
+            "OrgAbuseName": [
+              "L3 Abuse Contact"
+            ],
+            "OrgAbusePhone": [
+              "+1-877-453-8353"
+            ],
+            "OrgAbuseRef": [
+              "https://rdap.arin.net/registry/entity/LAC56-ARIN"
+            ]
+          }
+        },
+        {
+          "name": "NetRange",
+          "related": "",
+          "properties": {
+            "CIDR": [
+              "8.8.8.0/24"
+            ],
+            "NetHandle": [
+              "NET-8-8-8-0-1"
+            ],
+            "NetName": [
+              "LVLT-GOGL-8-8-8"
+            ],
+            "NetRange": [
+              "8.8.8.0 - 8.8.8.255"
+            ],
+            "NetType": [
+              "Reallocated"
+            ],
+            "Organization": [
+              "Google LLC (GOGL)"
+            ],
+            "OriginAS": [
+              ""
+            ],
+            "Parent": [
+              "LVLT-ORG-8-8 (NET-8-0-0-0-1)"
+            ],
+            "Ref": [
+              "https://rdap.arin.net/registry/ip/8.8.8.0"
+            ],
+            "RegDate": [
+              "2014-03-14"
+            ],
+            "Updated": [
+              "2014-03-14"
+            ]
+          }
+        },
+        {
+          "name": "OrgName",
+          "related": "",
+          "properties": {
+            "Address": [
+              "1600 Amphitheatre Parkway"
+            ],
+            "City": [
+              "Mountain View"
+            ],
+            "Comment": [
+              "Please note that the recommended way to file abuse complaints are located in the following links.",
+              "",
+              "To report abuse and illegal activity: https://www.google.com/contact/",
+              "",
+              "For legal requests: http://support.google.com/legal",
+              "",
+              "Regards,",
+              "The Google Team"
+            ],
+            "Country": [
+              "US"
+            ],
+            "OrgId": [
+              "GOGL"
+            ],
+            "OrgName": [
+              "Google LLC"
+            ],
+            "PostalCode": [
+              "94043"
+            ],
+            "Ref": [
+              "https://rdap.arin.net/registry/entity/GOGL"
+            ],
+            "RegDate": [
+              "2000-03-30"
+            ],
+            "StateProv": [
+              "CA"
+            ],
+            "Updated": [
+              "2019-10-31"
+            ]
+          }
+        },
+        {
+          "name": "OrgTechHandle",
+          "related": "",
+          "properties": {
+            "OrgTechEmail": [
+              "arin-contact@google.com"
+            ],
+            "OrgTechHandle": [
+              "ZG39-ARIN"
+            ],
+            "OrgTechName": [
+              "Google LLC"
+            ],
+            "OrgTechPhone": [
+              "+1-650-253-0000"
+            ],
+            "OrgTechRef": [
+              "https://rdap.arin.net/registry/entity/ZG39-ARIN"
+            ]
+          }
+        },
+        {
+          "name": "OrgAbuseHandle",
+          "related": "",
+          "properties": {
+            "OrgAbuseEmail": [
+              "network-abuse@google.com"
+            ],
+            "OrgAbuseHandle": [
+              "ABUSE5250-ARIN"
+            ],
+            "OrgAbuseName": [
+              "Abuse"
+            ],
+            "OrgAbusePhone": [
+              "+1-650-253-0000"
+            ],
+            "OrgAbuseRef": [
+              "https://rdap.arin.net/registry/entity/ABUSE5250-ARIN"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

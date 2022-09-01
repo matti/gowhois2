@@ -12,4 +12,5 @@ require (
 	golang.org/x/term v0.0.0-20210927222741-03fcf44c2211 // indirect
 	golang.org/x/text v0.3.7 // indirect
 	golang.org/x/tools v0.0.0-20180917221912-90fa682c2a6e // indirect
+	gopkg.in/guregu/null.v4 v4.0.0
 )

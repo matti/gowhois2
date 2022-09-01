@@ -1,0 +1,242 @@
+{
+  "registries": [
+    {
+      "name": "ripe",
+      "entities": [
+        {
+          "name": "inetnum",
+          "related": "185.179.116.0 - 185.179.119.255",
+          "properties": {
+            "admin-c": [
+              "PLIN-RIPE"
+            ],
+            "country": [
+              "FI"
+            ],
+            "created": [
+              "2016-11-28T10:44:30Z"
+            ],
+            "inetnum": [
+              "185.179.116.0 - 185.179.119.255"
+            ],
+            "last-modified": [
+              "2019-01-30T16:06:29Z"
+            ],
+            "mnt-by": [
+              "RIPE-NCC-HM-MNT",
+              "PLANEETTA-MNT"
+            ],
+            "netname": [
+              "FI-PLANEETTA-20161128"
+            ],
+            "org": [
+              "ORG-PIO3-RIPE"
+            ],
+            "source": [
+              "RIPE"
+            ],
+            "status": [
+              "ALLOCATED PA"
+            ],
+            "tech-c": [
+              "PLIN-RIPE"
+            ]
+          }
+        },
+        {
+          "name": "organisation",
+          "related": "185.179.116.0 - 185.179.119.255",
+          "properties": {
+            "abuse-c": [
+              "PLIN-RIPE"
+            ],
+            "address": [
+              "Mannerheimintie 105,",
+              "00280",
+              "Helsinki",
+              "FINLAND"
+            ],
+            "admin-c": [
+              "AXU-RIPE",
+              "LK1557-RIPE",
+              "PLIN-RIPE"
+            ],
+            "country": [
+              "FI"
+            ],
+            "created": [
+              "2012-03-15T16:28:40Z"
+            ],
+            "fax-no": [
+              "+358105251449"
+            ],
+            "last-modified": [
+              "2020-12-16T12:45:29Z"
+            ],
+            "mnt-by": [
+              "RIPE-NCC-HM-MNT",
+              "PLANEETTA-MNT"
+            ],
+            "mnt-ref": [
+              "PLANEETTA-MNT",
+              "RIPE-NCC-HM-MNT"
+            ],
+            "org-name": [
+              "Planeetta Internet Oy"
+            ],
+            "org-type": [
+              "LIR"
+            ],
+            "organisation": [
+              "ORG-PIO3-RIPE"
+            ],
+            "phone": [
+              "+358105251440"
+            ],
+            "source": [
+              "RIPE # Filtered"
+            ]
+          }
+        },
+        {
+          "name": "role",
+          "related": "185.179.116.0 - 185.179.119.255",
+          "properties": {
+            "abuse-mailbox": [
+              "abuse@planeetta.fi"
+            ],
+            "address": [
+              "Planeetta Internet Oy",
+              "Mannerheimintie 105",
+              "00280 Helsinki",
+              "Finland"
+            ],
+            "admin-c": [
+              "LK1557-RIPE"
+            ],
+            "created": [
+              "2005-08-16T15:32:32Z"
+            ],
+            "fax-no": [
+              "+358 10 525 1449"
+            ],
+            "last-modified": [
+              "2019-09-26T00:59:18Z"
+            ],
+            "mnt-by": [
+              "PLANEETTA-MNT"
+            ],
+            "nic-hdl": [
+              "PLIN-RIPE"
+            ],
+            "org": [
+              "ORG-PIO1-RIPE"
+            ],
+            "phone": [
+              "+358 10 525 1440"
+            ],
+            "role": [
+              "Planeetta Internet Hostmaster"
+            ],
+            "source": [
+              "RIPE # Filtered"
+            ],
+            "tech-c": [
+              "AXU-RIPE",
+              "TM3893-RIPE"
+            ]
+          }
+        },
+        {
+          "name": "route",
+          "related": "185.179.116.0/22AS58003",
+          "properties": {
+            "created": [
+              "2016-11-28T12:56:25Z"
+            ],
+            "descr": [
+              "Planeetta Internet Infrastructure",
+              "http://www.planeetta.net/"
+            ],
+            "last-modified": [
+              "2016-11-28T12:56:25Z"
+            ],
+            "mnt-by": [
+              "PLANEETTA-MNT"
+            ],
+            "mnt-routes": [
+              "PLANEETTA-MNT"
+            ],
+            "org": [
+              "ORG-PIO3-RIPE"
+            ],
+            "origin": [
+              "AS58003"
+            ],
+            "route": [
+              "185.179.116.0/22"
+            ],
+            "source": [
+              "RIPE"
+            ]
+          }
+        },
+        {
+          "name": "organisation",
+          "related": "185.179.116.0/22AS58003",
+          "properties": {
+            "abuse-c": [
+              "PLIN-RIPE"
+            ],
+            "address": [
+              "Mannerheimintie 105,",
+              "00280",
+              "Helsinki",
+              "FINLAND"
+            ],
+            "admin-c": [
+              "AXU-RIPE",
+              "LK1557-RIPE",
+              "PLIN-RIPE"
+            ],
+            "country": [
+              "FI"
+            ],
+            "created": [
+              "2012-03-15T16:28:40Z"
+            ],
+            "fax-no": [
+              "+358105251449"
+            ],
+            "last-modified": [
+              "2020-12-16T12:45:29Z"
+            ],
+            "mnt-by": [
+              "RIPE-NCC-HM-MNT",
+              "PLANEETTA-MNT"
+            ],
+            "mnt-ref": [
+              "PLANEETTA-MNT",
+              "RIPE-NCC-HM-MNT"
+            ],
+            "org-name": [
+              "Planeetta Internet Oy"
+            ],
+            "org-type": [
+              "LIR"
+            ],
+            "organisation": [
+              "ORG-PIO3-RIPE"
+            ],
+            "phone": [
+              "+358105251440"
+            ],
+            "source": [
+              "RIPE # Filtered"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

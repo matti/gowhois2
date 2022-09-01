@@ -1,0 +1,260 @@
+{
+  "registries": [
+    {
+      "name": "apnic",
+      "entities": [
+        {
+          "name": "inetnum",
+          "related": "1.1.1.0 - 1.1.1.255",
+          "properties": {
+            "abuse-c": [
+              "AA1412-AP"
+            ],
+            "admin-c": [
+              "AR302-AP"
+            ],
+            "country": [
+              "AU"
+            ],
+            "descr": [
+              "APNIC and Cloudflare DNS Resolver project",
+              "Routed globally by AS13335/Cloudflare",
+              "Research prefix for APNIC Labs"
+            ],
+            "inetnum": [
+              "1.1.1.0 - 1.1.1.255"
+            ],
+            "last-modified": [
+              "2020-07-15T13:10:57Z"
+            ],
+            "mnt-by": [
+              "APNIC-HM"
+            ],
+            "mnt-irt": [
+              "IRT-APNICRANDNET-AU"
+            ],
+            "mnt-routes": [
+              "MAINT-AU-APNIC-GM85-AP"
+            ],
+            "netname": [
+              "APNIC-LABS"
+            ],
+            "org": [
+              "ORG-ARAD1-AP"
+            ],
+            "remarks": [
+              "---------------",
+              "All Cloudflare abuse reporting can be done via",
+              "resolver-abuse@cloudflare.com",
+              "---------------"
+            ],
+            "source": [
+              "APNIC"
+            ],
+            "status": [
+              "ASSIGNED PORTABLE"
+            ],
+            "tech-c": [
+              "AR302-AP"
+            ]
+          }
+        },
+        {
+          "name": "irt",
+          "related": "1.1.1.0 - 1.1.1.255",
+          "properties": {
+            "abuse-mailbox": [
+              "helpdesk@apnic.net"
+            ],
+            "address": [
+              "PO Box 3646",
+              "South Brisbane, QLD 4101",
+              "Australia"
+            ],
+            "admin-c": [
+              "AR302-AP"
+            ],
+            "auth": [
+              "# Filtered"
+            ],
+            "e-mail": [
+              "helpdesk@apnic.net"
+            ],
+            "irt": [
+              "IRT-APNICRANDNET-AU"
+            ],
+            "last-modified": [
+              "2021-03-09T01:10:21Z"
+            ],
+            "mnt-by": [
+              "MAINT-AU-APNIC-GM85-AP"
+            ],
+            "remarks": [
+              "helpdesk@apnic.net was validated on 2021-02-09"
+            ],
+            "source": [
+              "APNIC"
+            ],
+            "tech-c": [
+              "AR302-AP"
+            ]
+          }
+        },
+        {
+          "name": "organisation",
+          "related": "1.1.1.0 - 1.1.1.255",
+          "properties": {
+            "address": [
+              "6 Cordelia St"
+            ],
+            "country": [
+              "AU"
+            ],
+            "e-mail": [
+              "helpdesk@apnic.net"
+            ],
+            "fax-no": [
+              "+61-7-38583199"
+            ],
+            "last-modified": [
+              "2017-10-11T01:28:39Z"
+            ],
+            "mnt-by": [
+              "APNIC-HM"
+            ],
+            "mnt-ref": [
+              "APNIC-HM"
+            ],
+            "org-name": [
+              "APNIC Research and Development"
+            ],
+            "organisation": [
+              "ORG-ARAD1-AP"
+            ],
+            "phone": [
+              "+61-7-38583100"
+            ],
+            "source": [
+              "APNIC"
+            ]
+          }
+        },
+        {
+          "name": "role",
+          "related": "1.1.1.0 - 1.1.1.255",
+          "properties": {
+            "abuse-mailbox": [
+              "helpdesk@apnic.net"
+            ],
+            "address": [
+              "PO Box 3646",
+              "South Brisbane, QLD 4101",
+              "Australia"
+            ],
+            "admin-c": [
+              "AR302-AP"
+            ],
+            "country": [
+              "ZZ"
+            ],
+            "e-mail": [
+              "helpdesk@apnic.net"
+            ],
+            "last-modified": [
+              "2021-03-09T01:10:22Z"
+            ],
+            "mnt-by": [
+              "APNIC-ABUSE"
+            ],
+            "nic-hdl": [
+              "AA1412-AP"
+            ],
+            "phone": [
+              "+000000000"
+            ],
+            "remarks": [
+              "Generated from irt object IRT-APNICRANDNET-AU"
+            ],
+            "role": [
+              "ABUSE APNICRANDNETAU"
+            ],
+            "source": [
+              "APNIC"
+            ],
+            "tech-c": [
+              "AR302-AP"
+            ]
+          }
+        },
+        {
+          "name": "role",
+          "related": "1.1.1.0 - 1.1.1.255",
+          "properties": {
+            "address": [
+              "PO Box 3646",
+              "South Brisbane, QLD 4101",
+              "Australia"
+            ],
+            "admin-c": [
+              "AH256-AP"
+            ],
+            "country": [
+              "AU"
+            ],
+            "e-mail": [
+              "research@apnic.net"
+            ],
+            "fax-no": [
+              "+61-7-3858-3199"
+            ],
+            "last-modified": [
+              "2018-04-04T04:26:04Z"
+            ],
+            "mnt-by": [
+              "MAINT-APNIC-AP"
+            ],
+            "nic-hdl": [
+              "AR302-AP"
+            ],
+            "phone": [
+              "+61-7-3858-3188"
+            ],
+            "role": [
+              "APNIC RESEARCH"
+            ],
+            "source": [
+              "APNIC"
+            ],
+            "tech-c": [
+              "AH256-AP"
+            ]
+          }
+        },
+        {
+          "name": "route",
+          "related": "1.1.1.0/24AS13335",
+          "properties": {
+            "descr": [
+              "APNIC Research and Development\n6 Cordelia St"
+            ],
+            "last-modified": [
+              "2018-03-16T16:58:06Z"
+            ],
+            "mnt-by": [
+              "MAINT-AU-APNIC-GM85-AP"
+            ],
+            "origin": [
+              "AS13335"
+            ],
+            "route": [
+              "1.1.1.0/24"
+            ],
+            "source": [
+              "APNIC"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

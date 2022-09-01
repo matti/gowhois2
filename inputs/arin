@@ -19,7 +19,7 @@ NetName:        LVLT-ORG-8-8
 NetHandle:      NET-8-0-0-0-1
 Parent:         NET8 (NET-8-0-0-0-0)
 NetType:        Direct Allocation
-OriginAS:       
+OriginAS:
 Organization:   Level 3 Parent, LLC (LPL-141)
 RegDate:        1992-12-01
 Updated:        2018-04-23
@@ -36,34 +36,34 @@ PostalCode:     71203
 Country:        US
 RegDate:        2018-02-06
 Updated:        2021-09-23
-Comment:        ADDRESSES WITHIN THIS BLOCK ARE NON-PORTABLE ANY ISP ANNOUNCING OR TRANSITING PORTIONS WITHIN OUR RANGES SHOULD NOT RELY ON PRESENTED LOA'S UNLESS THOSE RANGES ARE ALSO ANNOUNCED TO A LUMEN ASN. 
-Comment:        
+Comment:        ADDRESSES WITHIN THIS BLOCK ARE NON-PORTABLE ANY ISP ANNOUNCING OR TRANSITING PORTIONS WITHIN OUR RANGES SHOULD NOT RELY ON PRESENTED LOA'S UNLESS THOSE RANGES ARE ALSO ANNOUNCED TO A LUMEN ASN.
+Comment:
 Comment:        Our looking glass is located at: https://lookingglass.centurylink.com/
-Comment:        
+Comment:
 Comment:        For subpoena or court order please fax 844.254.5800 or refer to our Trust & Safety page:
 Comment:        https://www.lumen.com/en-us/about/legal/trust-center/trust-and-safety.html
-Comment:        
+Comment:
 Comment:        For abuse issues, please email abuse@aup.lumen.com
-Comment:        All abuse reports MUST include: 
-Comment:        * src IP 
-Comment:        * dest IP (your IP) 
-Comment:        * dest port 
-Comment:        * Accurate date/timestamp and timezone of activity 
-Comment:        * Intensity/frequency (short log extracts) 
-Comment:        * Your contact details (phone and email) 
+Comment:        All abuse reports MUST include:
+Comment:        * src IP
+Comment:        * dest IP (your IP)
+Comment:        * dest port
+Comment:        * Accurate date/timestamp and timezone of activity
+Comment:        * Intensity/frequency (short log extracts)
+Comment:        * Your contact details (phone and email)
 Comment:        Without these we will be unable to identify the correct owner of the IP address at that point in time.
 Ref:            https://rdap.arin.net/registry/entity/LPL-141
 
 
 OrgTechHandle: IPADD5-ARIN
 OrgTechName:   ipaddressing
-OrgTechPhone:  +1-877-453-8353 
+OrgTechPhone:  +1-877-453-8353
 OrgTechEmail:  ipaddressing@level3.com
 OrgTechRef:    https://rdap.arin.net/registry/entity/IPADD5-ARIN
 
 OrgAbuseHandle: LAC56-ARIN
 OrgAbuseName:   L3 Abuse Contact
-OrgAbusePhone:  +1-877-453-8353 
+OrgAbusePhone:  +1-877-453-8353
 OrgAbuseEmail:  abuse@level3.com
 OrgAbuseRef:    https://rdap.arin.net/registry/entity/LAC56-ARIN
 
@@ -78,7 +78,7 @@ NetName:        LVLT-GOGL-8-8-8
 NetHandle:      NET-8-8-8-0-1
 Parent:         LVLT-ORG-8-8 (NET-8-0-0-0-1)
 NetType:        Reallocated
-OriginAS:       
+OriginAS:
 Organization:   Google LLC (GOGL)
 RegDate:        2014-03-14
 Updated:        2014-03-14
@@ -94,26 +94,26 @@ PostalCode:     94043
 Country:        US
 RegDate:        2000-03-30
 Updated:        2019-10-31
-Comment:        Please note that the recommended way to file abuse complaints are located in the following links. 
-Comment:        
+Comment:        Please note that the recommended way to file abuse complaints are located in the following links.
+Comment:
 Comment:        To report abuse and illegal activity: https://www.google.com/contact/
-Comment:        
-Comment:        For legal requests: http://support.google.com/legal 
-Comment:        
-Comment:        Regards, 
+Comment:
+Comment:        For legal requests: http://support.google.com/legal
+Comment:
+Comment:        Regards,
 Comment:        The Google Team
 Ref:            https://rdap.arin.net/registry/entity/GOGL
 
 
 OrgTechHandle: ZG39-ARIN
 OrgTechName:   Google LLC
-OrgTechPhone:  +1-650-253-0000 
+OrgTechPhone:  +1-650-253-0000
 OrgTechEmail:  arin-contact@google.com
 OrgTechRef:    https://rdap.arin.net/registry/entity/ZG39-ARIN
 
 OrgAbuseHandle: ABUSE5250-ARIN
 OrgAbuseName:   Abuse
-OrgAbusePhone:  +1-650-253-0000 
+OrgAbusePhone:  +1-650-253-0000
 OrgAbuseEmail:  network-abuse@google.com
 OrgAbuseRef:    https://rdap.arin.net/registry/entity/ABUSE5250-ARIN
 
@@ -133,4 +133,3 @@ OrgAbuseRef:    https://rdap.arin.net/registry/entity/ABUSE5250-ARIN
 
 ;; Query time: 806 msec
 ;; WHEN: Tue Aug 30 17:56:51 EEST 2022
-

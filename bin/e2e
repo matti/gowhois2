@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+set -Euo pipefail
+for input in inputs/*; do
+  if go run cmd/gowhois.go "$input" > "outputs/$(basename $input)"; then
+    echo "$input OK"
+  else
+    echo "$input failed"
+    exit 1
+  fi
+done
