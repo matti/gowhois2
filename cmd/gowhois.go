@@ -41,7 +41,6 @@ func main() {
 				panic(err)
 			}
 		}
-
 		fmt.Println(gowhois2.Parse(data))
 	}
 }

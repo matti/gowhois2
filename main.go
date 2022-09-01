@@ -81,6 +81,8 @@ func Parse(data string) Response {
 				Name:     newRegistry,
 				Entities: []Entity{},
 			}
+			// stop setting new registry
+			newRegistry = ""
 			continue
 		}
 
